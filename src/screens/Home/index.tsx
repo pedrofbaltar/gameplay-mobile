@@ -6,6 +6,7 @@ import { CategorySelect } from '../../components/CategorySelect';
 
 import { styles } from "./styles";
 import { useState } from "react";
+import { ListHeader } from "../../components/ListHeader";
 
 
 export function Home() {
@@ -26,6 +27,13 @@ export function Home() {
         <CategorySelect
           categorySelected={category}
           setCategory={handleCategorySelect}
+        />
+      </View>
+
+      <View style={styles.content}>
+        <ListHeader
+          title="Partidas agendadas"
+          subtitle="Total 6"
         />
       </View>
     </View>
