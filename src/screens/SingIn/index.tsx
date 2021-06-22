@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  StatusBar,
   View,
   Text,
   Image,
@@ -13,12 +12,6 @@ import { styles } from "./styles";
 export function SingIn() {
   return (
     <View style={styles.container}>
-      <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
-
       <Image
         source={Illustration}
         style={styles.illustration}
