@@ -24,8 +24,8 @@ export const styles = StyleSheet.create({
   },
   title: {
     flex: 1,
-    color: theme.colors.heading,
     fontSize: 15,
+    color: theme.colors.heading,
     textAlign: "center",
   },
 });
