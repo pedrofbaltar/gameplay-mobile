@@ -27,8 +27,8 @@ export function Category({
   return (
     <RectButton {...rest}>
       <LinearGradient
-      style={styles.container}
-      colors={[secondary50, secondary70]}
+        style={styles.container}
+        colors={[secondary50, secondary70]}
       >
         <LinearGradient
           style={[styles.content, { opacity: checked ? 1 : 0.5 }]}
