@@ -6,6 +6,7 @@ import { useFonts } from 'expo-font';
 import { Rajdhani_500Medium, Rajdhani_700Bold } from '@expo-google-fonts/rajdhani';
 
 import { Routes } from './src/routes';
+
 import { Background } from './src/components/Background';
 
 export default function App() {
